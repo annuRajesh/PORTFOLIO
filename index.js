@@ -13,4 +13,7 @@ function display(){
         count=0
     }
 }
+
 setInterval(display,2000)
+
+   
