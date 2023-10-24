@@ -83,6 +83,9 @@ background-color: white;
 table{
     width: 70%;
 }
+th{
+    align-items: center;
+}
 .skills{
     display: flex;
     flex-direction: column;
@@ -130,4 +133,32 @@ a{
         width: 10%;
         
     }
+}
+
+.gallery{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    border: solid 1px;
+}
+.imageGall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.gallery:hover{
+   box-shadow: 5px 5px 4px 5px gray;
+   -webkit-box-shadow:-2px 3px 3px -1px grey;
+   -moz-box-shadow:2px -3px 3px -1px grey;
+}
+.gallery img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
 }
