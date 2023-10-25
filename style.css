@@ -98,7 +98,47 @@ th{
 
 }
 #skill_1{
-    width: 10%;
+    width: 80%;
+    height: 30px;
+    background-color: blanchedalmond;
+   
+    
+    
+}
+#skill_2{
+    width: 80%;
+    height: 30px;
+    background-color: blanchedalmond;
+   
+    
+    
+}
+#skill_3{
+    width: 50%;
+    height: 30px;
+    background-color: blanchedalmond;
+   
+    
+    
+}
+#skill_4{
+    width: 65%;
+    height: 30px;
+    background-color: blanchedalmond;
+   
+    
+    
+}
+#skill_5{
+    width: 70%;
+    height: 30px;
+    background-color: blanchedalmond;
+   
+    
+    
+}
+#skill_6{
+    width: 80%;
     height: 30px;
     background-color: blanchedalmond;
    
@@ -121,7 +161,7 @@ nav{
 }
 a{
     padding: 10px;
-    color: #2b323c;
+    color: #75787b;
     font-weight: bold;
     
 }
@@ -130,7 +170,7 @@ a{
         width: 0;
     }
     100%{
-        width: 10%;
+        width: 80%;
         
     }
 }
@@ -161,4 +201,33 @@ a{
 }
 a{
     text-decoration: none;
+}
+.sign_up{
+    padding: 100px;
+    align-items: center;
+}
+.submitbut{
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    border: solid 1px;
+    
+}
+.submitbut:hover{
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    color: #fff;
+
+
+}
+.submitbut:active{
+    background-color: rgb(211, 174, 125);
+}
+.mapping{
+    text-align: center;
+    background-color: antiquewhite;
+}
+iframe{
+    border-radius: 10px;
 }
